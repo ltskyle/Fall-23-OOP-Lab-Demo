@@ -1,0 +1,14 @@
+C:\Users\kylel\OneDrive\Desktop\OOP-Lab\bin\Debug\net7.0\OOP-Lab.exe
+C:\Users\kylel\OneDrive\Desktop\OOP-Lab\bin\Debug\net7.0\OOP-Lab.deps.json
+C:\Users\kylel\OneDrive\Desktop\OOP-Lab\bin\Debug\net7.0\OOP-Lab.runtimeconfig.json
+C:\Users\kylel\OneDrive\Desktop\OOP-Lab\bin\Debug\net7.0\OOP-Lab.dll
+C:\Users\kylel\OneDrive\Desktop\OOP-Lab\bin\Debug\net7.0\OOP-Lab.pdb
+C:\Users\kylel\OneDrive\Desktop\OOP-Lab\obj\Debug\net7.0\OOP-Lab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kylel\OneDrive\Desktop\OOP-Lab\obj\Debug\net7.0\OOP-Lab.AssemblyInfoInputs.cache
+C:\Users\kylel\OneDrive\Desktop\OOP-Lab\obj\Debug\net7.0\OOP-Lab.AssemblyInfo.cs
+C:\Users\kylel\OneDrive\Desktop\OOP-Lab\obj\Debug\net7.0\OOP-Lab.csproj.CoreCompileInputs.cache
+C:\Users\kylel\OneDrive\Desktop\OOP-Lab\obj\Debug\net7.0\OOP-Lab.dll
+C:\Users\kylel\OneDrive\Desktop\OOP-Lab\obj\Debug\net7.0\refint\OOP-Lab.dll
+C:\Users\kylel\OneDrive\Desktop\OOP-Lab\obj\Debug\net7.0\OOP-Lab.pdb
+C:\Users\kylel\OneDrive\Desktop\OOP-Lab\obj\Debug\net7.0\OOP-Lab.genruntimeconfig.cache
+C:\Users\kylel\OneDrive\Desktop\OOP-Lab\obj\Debug\net7.0\ref\OOP-Lab.dll
