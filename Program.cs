@@ -20,7 +20,7 @@ destination = Console.ReadLine();
 // Set the destination of the spacecraft
 starship.SetDestination(destination);
 
-// Increase the communication signal of the spacecraft
+// Increase the number of passengers in the spacecraft
 starship.AddPassenger();
 
 // Display the current destination and signal strength
@@ -28,7 +28,7 @@ Console.WriteLine("Destination: " + starship.GetDestination() + " \nNumber of Pa
 
 Console.WriteLine("Too much weight! Kicking passengers off spacecraft.");
 
-// Decrease the communication signal
+// Decrease the number of passengers
 for (int x = 0; x < 6; x++) {
     starship.RemovePassenger();
 }
