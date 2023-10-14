@@ -5,7 +5,7 @@ Console.Clear();
 string destination;
 
 // Declare and instantiate a spacecraft object
-Spacecraft starship = new Spacecraft("Galactic Voyager");
+Spacecraft starship = new Spacecraft("Enterprise");
 
 // Toggle the engines on
 starship.ToggleEngines();
@@ -21,37 +21,45 @@ destination = Console.ReadLine();
 starship.SetDestination(destination);
 
 // Increase the communication signal of the spacecraft
-starship.IncreaseSignal();
+starship.AddPassenger();
 
 // Display the current destination and signal strength
-Console.WriteLine("Destination: " + starship.GetDestination() + " \nCommunication Signal Strength: " + starship.GetSignalStrength());
+Console.WriteLine("Destination: " + starship.GetDestination() + " \nNumber of Passengers: " + starship.GetNumPassengers());
 
-Console.WriteLine("Signal too strong! Lowering the communication signal.");
+Console.WriteLine("Too much weight! Kicking passengers off spacecraft.");
 
 // Decrease the communication signal
 for (int x = 0; x < 6; x++) {
-    starship.DecreaseSignal();
+    starship.RemovePassenger();
 }
 
 // Display the current destination and signal strength
-Console.WriteLine("Destination: " + starship.GetDestination() + " \nCommunication Signal Strength: " + starship.GetSignalStrength());
+Console.WriteLine("Destination: " + starship.GetDestination() + " \nNumber of Passengers: " + starship.GetNumPassengers());
 
 // create a blank line
 Console.WriteLine();
 
+
 // HERE IS WHERE YOU DO TASK 5
-Spacecraft explorer = new Spacecraft("Galactic Explorer");
+System.Console.WriteLine("Time to make a new spacecraft!\n");
+
+Spacecraft explorer = new Spacecraft("Voyager");
 
 explorer.ToggleEngines();
 
+
 Console.WriteLine(explorer.ToString());
+
+for (int i = 0; i < 2; i++) {
+    explorer.RemovePassenger();
+}
+
+System.Console.WriteLine("Number of passengers: " + explorer.GetNumPassengers());
 
 Console.WriteLine("Which planet or space station do you want to head to? ");
 destination = Console.ReadLine();
 explorer.SetDestination(destination);
 
-for (int i = 0; i < 2; i++) {
-    explorer.DecreaseSignal();
-}
 
-Console.WriteLine("Destination: " + explorer.GetDestination() + " \nCommunication Signal Strength: " + explorer.GetSignalStrength());
+
+Console.WriteLine("Destination: " + explorer.GetDestination());
