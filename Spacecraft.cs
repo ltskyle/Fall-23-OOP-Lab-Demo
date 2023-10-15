@@ -6,7 +6,7 @@ namespace OOP_Lab
         private string destination;
         private bool enginesOn;
         private int fuelLevel;
-        private int communicationSignal;
+        private int numPassengers;
 
         // Constructor creates an instance of the Spacecraft class, object
         public Spacecraft(string craftName)
@@ -15,13 +15,13 @@ namespace OOP_Lab
             destination = "Orbit"; // Default destination
             enginesOn = false; // Default engine off
             fuelLevel = 100;  // Default fuel level
-            communicationSignal = 11;  // Default communication signal strength
+            numPassengers = 11;  // Default communication signal strength
         }
 
         // Gets the communication signal strength and returns it
-        public int GetSignalStrength()
+        public int GetNumPassengers()
         {
-            return communicationSignal;
+            return numPassengers;
         }
 
         // Gets the destination and returns it
@@ -55,15 +55,15 @@ namespace OOP_Lab
         }
 
         // Increases the communication signal strength by 1
-        public void IncreaseSignal()
+        public void AddPassenger()
         {
-            communicationSignal += 1;
+            numPassengers += 1;
         }
 
         // Decreases the communication signal strength by 1
-        public void DecreaseSignal()
+        public void RemovePassenger()
         {
-            communicationSignal -= 1;
+            numPassengers -= 1;
         }
 
         // Represents the current state of the spacecraft as a string
