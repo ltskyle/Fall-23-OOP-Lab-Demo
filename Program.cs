@@ -23,7 +23,7 @@ starship.SetDestination(destination);
 // Increase the number of passengers in the spacecraft
 starship.AddPassenger();
 
-// Display the current destination and signal strength
+// Display the current destination and number of passengers
 Console.WriteLine("Destination: " + starship.GetDestination() + " \nNumber of Passengers: " + starship.GetNumPassengers());
 
 Console.WriteLine("Too much weight! Kicking passengers off spacecraft.");
@@ -33,7 +33,7 @@ for (int x = 0; x < 6; x++) {
     starship.RemovePassenger();
 }
 
-// Display the current destination and signal strength
+// Display the current destination and number of passengers
 Console.WriteLine("Destination: " + starship.GetDestination() + " \nNumber of Passengers: " + starship.GetNumPassengers());
 
 // create a blank line

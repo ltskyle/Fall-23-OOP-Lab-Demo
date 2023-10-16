@@ -15,10 +15,10 @@ namespace OOP_Lab
             destination = "Orbit"; // Default destination
             enginesOn = false; // Default engine off
             fuelLevel = 100;  // Default fuel level
-            numPassengers = 11;  // Default communication signal strength
+            numPassengers = 11;  // Default number of passengers
         }
 
-        // Gets the communication signal strength and returns it
+        // Gets the number of passengers and returns it
         public int GetNumPassengers()
         {
             return numPassengers;
@@ -54,13 +54,13 @@ namespace OOP_Lab
             enginesOn = !enginesOn;
         }
 
-        // Increases the communication signal strength by 1
+        // Increases the number of passengers by 1
         public void AddPassenger()
         {
             numPassengers += 1;
         }
 
-        // Decreases the communication signal strength by 1
+        // Decreases the number of passengers by 1
         public void RemovePassenger()
         {
             numPassengers -= 1;

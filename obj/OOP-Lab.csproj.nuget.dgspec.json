@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/chase/projects/221/lab/lab-7/OOP-Lab.csproj": {}
+    "C:\\Users\\kylel\\OneDrive\\Desktop\\OOP-Lab\\OOP-Lab.csproj": {}
   },
   "projects": {
-    "/home/chase/projects/221/lab/lab-7/OOP-Lab.csproj": {
+    "C:\\Users\\kylel\\OneDrive\\Desktop\\OOP-Lab\\OOP-Lab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/chase/projects/221/lab/lab-7/OOP-Lab.csproj",
+        "projectUniqueName": "C:\\Users\\kylel\\OneDrive\\Desktop\\OOP-Lab\\OOP-Lab.csproj",
         "projectName": "OOP-Lab",
-        "projectPath": "/home/chase/projects/221/lab/lab-7/OOP-Lab.csproj",
-        "packagesPath": "/home/chase/.nuget/packages/",
-        "outputPath": "/home/chase/projects/221/lab/lab-7/obj/",
+        "projectPath": "C:\\Users\\kylel\\OneDrive\\Desktop\\OOP-Lab\\OOP-Lab.csproj",
+        "packagesPath": "C:\\Users\\kylel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kylel\\OneDrive\\Desktop\\OOP-Lab\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/chase/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kylel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
